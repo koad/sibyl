@@ -3,5 +3,9 @@
   "name": "Sibyl",
   "role": "researcher",
   "avatar": "avatar.png",
-  "buttons": []
+  "buttons": [
+    { "label": "Research", "action": "research", "description": "Start a research task" },
+    { "label": "Reports", "action": "reports", "description": "View research reports" },
+    { "label": "Brief", "action": "brief", "description": "Generate a brief on current page" }
+  ]
 }
