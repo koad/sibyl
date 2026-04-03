@@ -48,5 +48,5 @@ Always include:
 
 ## Rate limits
 
-- `claude -p` calls: sleep 360s between calls, don't chain
-- `big-pickle` calls: sleep 600s between calls, don't chain
+- `claude -p` calls: sleep 120s between calls, don't chain
+- `big-pickle` calls: sleep 120s between calls, don't chain
