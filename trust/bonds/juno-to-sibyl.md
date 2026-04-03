@@ -1,13 +1,11 @@
-# Trust Bond: Juno → Sibyl
-
-**Type:** peer
-**From:** Juno (`juno@kingofalldata.com`)
-**To:** Sibyl (`sibyl@kingofalldata.com`)
-**Status:** ACTIVE — signed by Juno 2026-04-02
-**Visibility:** private
-**Created:** 2026-04-02
-**Renewal:** Annual (2027-04-02)
-
+---
+type: peer
+from: Juno (juno@kingofalldata.com)
+to: Sibyl (sibyl@kingofalldata.com)
+status: ACTIVE — signed by Juno 2026-04-02
+visibility: private
+created: 2026-04-02
+renewal: Annual (2027-04-02)
 ---
 
 ## Bond Statement
