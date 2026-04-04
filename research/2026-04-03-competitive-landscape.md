@@ -11,7 +11,7 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 3. **Crypto-native decentralized networks** (SingularityNET, Shinkai, Coinfello) — Cost: $0–$10K. Value: No central authority, on-chain payments. Problem: Immature, crypto-dependent, limited enterprise adoption.
 4. **Peer-ring models** (koad:io) — *Emerging.* Cost: $5–$50K (pooled). Value: Cost-sharing + trust network + compliance infrastructure. Problem: Requires solving chicken-egg: who are the first peers?
 
-**Market signals:** $250B sovereign infrastructure pivot in 2026. 72% of IT leaders cite data sovereignty as top AI challenge (up from 49% prior year). 1.04K agentic AI companies, but only 3 absorbed 83% of VC in Feb 2026 (OpenAI, Anthropic, Waymo).
+**Market signals:** $250B sovereign infrastructure pivot in 2026. 72% of IT leaders cite data sovereignty as top AI challenge (up from 49% prior year) (Info-Tech Research Group, *AI Trends 2026 Report*, Nov 2025, n=700+). 1.04K agentic AI companies, but only 3 absorbed 83% of VC in Feb 2026 (OpenAI, Anthropic, Waymo).
 
 ## Findings
 
@@ -56,7 +56,7 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 - Licensing: $500K–$1M
 - Infrastructure: $200K–$500K (dedicated hardware, networking)
 - Services: $100K–$300K (setup, training, consulting)
-- Total first year: $800K–$1.8M
+- Total first year: $800K–$1.8M [NEEDS VERIFICATION — Kaji/Shakudo does not publish pricing; figure is a category estimate, not a Kaji-specific quote. See `2026-04-04-stat-verification.md`]
 
 **Strengths:**
 - Purpose-built for regulated sectors. Compliance baked in.
@@ -133,7 +133,7 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 - Peer accountability: If one peer breaks governance, others bear reputational risk.
 - No established player yet (market nascent).
 
-**Market readiness:** 2026 is the inflection year. Regulatory pressure (72% of IT leaders cite data sovereignty) is driving enterprises to seek alternatives. Peer-ring model solves the cost + trust problem simultaneously, but requires someone to seed it.
+**Market readiness:** 2026 is the inflection year. Regulatory pressure (72% of IT leaders cite data sovereignty — Info-Tech Research Group, Nov 2025) is driving enterprises to seek alternatives. Peer-ring model solves the cost + trust problem simultaneously, but requires someone to seed it.
 
 **Confidence:** Medium-high. The thesis is sound; execution is the open question.
 
@@ -141,7 +141,7 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 
 | Aspect | Open-Source Frameworks | Enterprise On-Prem | Crypto Decentralized | Peer-Ring Model |
 |--------|------------------------|-------------------|----------------------|------------------|
-| **Cost** | $0 framework + $20K ops | $800K–$1.8M | $0–$10K | $1K–$5K (pooled) |
+| **Cost** | $0 framework + $20K ops | $800K–$1.8M [NEEDS VERIFICATION] | $0–$10K | $1K–$5K (pooled) |
 | **Time to prod** | 2–4 weeks | 3–6 months | 2–4 weeks | 2–4 weeks |
 | **Compliance** | DIY (you handle) | Baked-in | Emerging | Shared audit trails |
 | **Enterprise adoption** | Low (DIY burden) | High (if budget) | Low (crypto friction) | Medium (unproven) |
@@ -168,7 +168,7 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 ## koad:io Differentiation: The Peer Ring Thesis
 
 **What's unique:**
-1. **Cost pooling for compliance:** Enterprise on-prem platforms cost $800K–$1.8M solo. Peer ring pools across 10+ sponsors, dropping to $1K–$5K per entity.
+1. **Cost pooling for compliance:** Enterprise on-prem platforms cost $800K–$1.8M solo [NEEDS VERIFICATION — category estimate; Kaji/Shakudo pricing unverified]. Peer ring pools across 10+ sponsors, dropping to $1K–$5K per entity.
 
 2. **Trust network over platform:** Competitors offer platforms (SingularityNET, Kaji, Shinkai). koad:io offers a network. Peers validate each other. Governance is distributed.
 
@@ -201,7 +201,8 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 - [Open-Source AI Agent Frameworks Comparison - Langfuse](https://langfuse.com/blog/2025-03-19-ai-agent-comparison)
 - [Best Open Source Agent Frameworks 2026 - Firecrawl](https://www.firecrawl.dev/blog/best-open-source-agent-frameworks)
 - [Top AI Agent Frameworks - Shakudo](https://www.shakudo.io/blog/top-9-ai-agent-frameworks)
-- [Kaji Enterprise AI Agent Platform](https://fast.io/resources/best-self-hosted-ai-agent-platforms/)
+- [Kaji / Shakudo — Deploy AI Agents On-Premise](https://www.shakudo.io/blog/deploy-ai-agents-on-premise) *(Kaji pricing not public; fast.io URL previously cited was incorrect)*
+- [Shakudo — $7M Raise Announcement (Kaji launch)](https://www.shakudo.io/blog/7-million-strategic-round-to-power-sovereign-enterprise-ai)
 - [Shinkai v1.0 Launch - HackerNoon](https://hackernoon.com/shinkai-launches-v10-onchain-ai-agents-go-live-with-usdc-and-coinbase-x402)
 - [Coinfello Self-Sovereign AI Agents - Bitcoin News](https://news.bitcoin.com/self-sovereign-ai-agent-platform-coinfello-targets-institutional-adoption-with-decentralized-infrastructure/)
 - [SingularityNET Decentralized AI](https://singularitynet.io/)
@@ -209,7 +210,8 @@ The sovereign AI agent market is fragmenting into four distinct categories:
 - [Agentic AI Market 2026 - Tracxn](https://tracxn.com/d/sectors/agentic-ai/__oyRAfdUfHPjf2oap110Wis0Qg12Gd8DzULlDXPJzrzs)
 - [Top AI Agent Startups 2026 - AI Funding Tracker](https://aifundingtracker.com/top-ai-agent-startups/)
 - [50 Top AI Funded Startups - AI Funding Tracker](https://aifundingtracker.com/top-50-ai-startups/)
-- [Enterprise AI Trends 2026: Sovereign, Agentic, Edge - Spectro Cloud](https://www.spectrocloud.com/blog/enterprise-ai-2026-trends)
+- [Enterprise AI Trends 2026: Sovereign, Agentic, Edge - Spectro Cloud](https://www.spectrocloud.com/blog/enterprise-ai-2026-trends) *(does NOT contain the 72% sovereignty stat)*
+- [Info-Tech Research Group — AI Trends 2026 Report (PR Newswire)](https://www.prnewswire.com/news-releases/ai-trends-2026-report-risk-agents-and-sovereignty-will-shape-the-next-wave-of-adoption-says-info-tech-research-group-302617276.html) *(correct source for "72% of IT leaders cite data sovereignty")*
 - [Where AI Is Headed in 2026 - Foundation Capital](https://foundationcapital.com/ideas/where-ai-is-headed-in-2026)
 
 ## Recommendation

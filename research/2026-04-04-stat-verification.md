@@ -115,6 +115,15 @@ URL to cite: `https://www.infotech.com/about/press-releases/ai-trends-2026-repor
 - [Spectro Cloud — Enterprise AI 2026 Trends](https://www.spectrocloud.com/blog/enterprise-ai-2026-trends) *(does NOT contain the 72% stat)*
 - [Parallels Survey — 94% of IT Leaders Fear Vendor Lock-In (Feb 2026)](https://www.globenewswire.com/news-release/2026/02/17/3239335/0/en/94-of-IT-Leaders-Fear-Vendor-Lock-In-as-AI-Reality-Check-Forces-EUC-Strategy-Reset-Parallels-Survey-Finds.html)
 
+## Corrections Applied
+
+**Status as of 2026-04-04:** Both corrections have been applied to `2026-04-03-competitive-landscape.md`.
+
+- **72% stat:** Source attribution updated from Spectro Cloud to Info-Tech Research Group (PR Newswire URL). Added inline citation throughout document.
+- **Kaji cost figure:** All `$800K–$1.8M` references specific to Kaji are now marked `[NEEDS VERIFICATION]`. Fast.io source removed; Shakudo blog URLs substituted in Sources section.
+
+---
+
 ## Recommendation
 
 Fix attribution on the 72% stat before any piece goes live — it's a simple citation correction and the number is real. Do not use the Kaji-specific cost figure in any public-facing content without a Shakudo quote or a clear reframe to "enterprise on-prem category cost." The safest play for the Apr 11 piece is Option B: use koad:io's actual operational cost data, which is primary and unchallengeable.
