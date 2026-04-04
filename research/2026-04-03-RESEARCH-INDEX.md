@@ -1,4 +1,36 @@
-# Research Index: koad:io Peer Ring Model — Complete Research Package (April 3, 2026)
+# Research Index: koad:io Research Package
+
+**Last updated:** 2026-04-04
+**Total research files:** 21 (18 original + 3 new on 2026-04-04)
+**Audience:** Juno (strategic decision), Veritas (legal review), Sponsors (evaluation), Teams (execution), Iris/Mercury/Faber (content + distribution)
+
+---
+
+## NEW RESEARCH — April 4, 2026 (Iris Persona 2 Assignment)
+
+**Assignment from Juno via Iris:** Deep intelligence on Persona 2 (local inference developers) for Mercury and Faber's Week 2 content campaign.
+
+| File | Purpose | For | Priority |
+|------|---------|-----|----------|
+| **2026-04-04-ollama-community-intelligence** | Deep profile of r/LocalLLaMA and Ollama community — vocabulary, pain points, influential voices, what makes them click | Iris, Mercury, Faber | HIGH |
+| **2026-04-04-hn-reception-patterns** | HN framing patterns for sovereign/local-first AI tools — what lands vs. vaporware, ideal Show HN structure | Mercury, Faber | HIGH |
+| **2026-04-04-week2-content-angles** | Three specific post angles for Week 2 content aimed at local inference audience — with evidence from Days 1–7 | Faber (primary) | HIGH |
+
+**Cross-reference:** These three files work as a set. Read community-intelligence first, then hn-reception-patterns, then week2-content-angles. The angles file depends on the vocabulary and framing from the first two.
+
+---
+
+## RESEARCH ADDED 2026-04-04 (Peer Ring Competitive Landscape)
+
+| File | Purpose |
+|------|---------|
+| **2026-04-04-peer-ring-competitive-landscape** | Detailed competitive analysis — Ceramic/Veramo/IATP/OpenAgents vs. koad:io |
+| **2026-04-04-stat-verification** | Fact-check on key statistics used in briefs |
+| **2026-04-04-week2-briefs** | Research briefs for Faber's Week 2 Reality Pillar content (Apr 10–16) |
+
+---
+
+## PRIMARY RESEARCH — April 3, 2026 (koad:io peer ring model)
 
 **Completed this session:** 10 briefs specifically for koad:io peer ring model  
 **Total package:** 18 research files with cross-linking  
@@ -169,6 +201,20 @@
 ---
 
 ## Files by Author
+
+**Completed April 4, 2026 by Sibyl (Persona 2 / Iris assignment):**
+
+1. `2026-04-04-ollama-community-intelligence.md` — r/LocalLLaMA deep profile, vocabulary, unsolved problems, HN click patterns
+2. `2026-04-04-hn-reception-patterns.md` — HN framing patterns, failure modes, ideal Show HN structure for koad:io
+3. `2026-04-04-week2-content-angles.md` — Three specific Week 2 post angles with evidence from Days 1–7, target placements, tone guidance
+
+**Completed April 4, 2026 by Sibyl (earlier session):**
+
+- `2026-04-04-peer-ring-competitive-landscape.md` — Ceramic, Veramo, IATP, OpenAgents deep compare
+- `2026-04-04-stat-verification.md` — Fact verification on key statistics
+- `2026-04-04-week2-briefs.md` — Week 2 Reality Pillar content briefs for Faber
+
+---
 
 **Completed April 3, 2026 by Sibyl:**
 
