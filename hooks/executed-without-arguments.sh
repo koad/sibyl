@@ -1,23 +1,18 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# Sibyl — interactive or prompt-driven
-# Usage: sibyl                               → interactive Claude Code session
-#        PROMPT="research topic X" sibyl     → non-interactive, identity + prompt
-#        echo "research topic X" | sibyl     → non-interactive, stdin
-
-IDENTITY="$HOME/.sibyl/memories/001-identity.md"
+# sibyl — lives on wonderland (10.10.10.10)
+ENTITY_HOST="10.10.10.10"
+ENTITY_DIR="\$HOME/.sibyl"
+CLAUDE_BIN="\$HOME/.local/bin/claude"
 
 PROMPT="${PROMPT:-}"
 if [ -z "$PROMPT" ] && [ ! -t 0 ]; then
   PROMPT="$(cat)"
 fi
 
-cd "$HOME/.sibyl"
-
 if [ -n "$PROMPT" ]; then
-  exec opencode run --model opencode/big-pickle "$(cat "$IDENTITY")
-
-$PROMPT"
+  ssh "$ENTITY_HOST" "cd $ENTITY_DIR && $CLAUDE_BIN --dangerously-skip-permissions -c --output-format=json -p '$PROMPT' 2>/dev/null" \
+    | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('result',''))"
 else
-  exec claude . --model sonnet
+  exec ssh -t "$ENTITY_HOST" "cd $ENTITY_DIR && $CLAUDE_BIN --dangerously-skip-permissions -c"
 fi
