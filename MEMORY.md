@@ -1,1 +1,0 @@
-- [Peer Ring Model](memories/005-peer-ring-model.md) — daemon is ring of trust, membership is product
