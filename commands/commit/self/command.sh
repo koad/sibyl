@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: 0BSD
 
 # Sibyl Self-Commit Command
 # Sibyl commits her own repository at ~/.sibyl/

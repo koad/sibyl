@@ -1,31 +1,50 @@
-# Private keys — never commit
-id/
-ssl/
-keybase/
-*.key
-*.keys
-*.gpg
-*.pgp
-*.sec
-*.private
+# Credentials / secrets
+.credentials
+.credentials.json
 
-# Secrets
-.env
-.env.*
-!.env.example
-credentials
-*.credentials
-
-# Runtime
+# Runtime artifacts (regenerate on their own)
+.local/
 node_modules/
-proc/
-var/
-
-# OS / editor
 .DS_Store
-.vscode/
+Thumbs.db
 *.swp
+*.swo
 *~
-logs/
-*.log
-archive/
+.tmp/
+dist/
+
+# Entity GPG keyring — private keys, never commit
+keyring/
+
+# Ed25519 private key — never commit (public key id/ed25519.pub is committed)
+id/ed25519.key
+
+# Claude Code plugins (upstream marketplace cache, not entity-owned)
+plugins/
+
+# Claude Code session artifacts (regenerated per session)
+backups/
+debug/
+file-history/
+image-cache/
+paste-cache/
+sessions/
+shell-snapshots/
+tasks/
+test-results/
+tooltips/
+history.jsonl
+projects
+cache/
+.context
+
+# Flight plans — ephemeral dispatch artifacts (durable record is commit trailer)
+flight-plans/
+
+# Claude Code harness artifacts (regenerated per session)
+.claude.json
+.claude/
+mcp-needs-auth-cache.json
+
+# Runtime state
+var/
