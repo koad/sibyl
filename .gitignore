@@ -1,7 +1,3 @@
-# Credentials / secrets
-.credentials
-.credentials.json
-
 # Runtime artifacts (regenerate on their own)
 .local/
 node_modules/
@@ -16,28 +12,6 @@ dist/
 # Entity GPG keyring — private keys, never commit
 keyring/
 
-# Ed25519 private key — never commit (public key id/ed25519.pub is committed)
-id/ed25519.key
-
-# Claude Code plugins (upstream marketplace cache, not entity-owned)
-plugins/
-
-# Claude Code session artifacts (regenerated per session)
-backups/
-debug/
-file-history/
-image-cache/
-paste-cache/
-sessions/
-shell-snapshots/
-tasks/
-test-results/
-tooltips/
-history.jsonl
-projects
-cache/
-.context
-
 # Flight plans — ephemeral dispatch artifacts (durable record is commit trailer)
 flight-plans/
 
@@ -48,3 +22,12 @@ mcp-needs-auth-cache.json
 
 # Runtime state
 var/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# .io files — signed visual artifacts (VESTA-SPEC-136)
+# These are PNGs with embedded signed payloads; not part of the public storefront.
+*.io

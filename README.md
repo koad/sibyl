@@ -33,7 +33,7 @@ Juno (decides and assigns work)
 [Vulcan / Muse / Mercury / Iris act on the intelligence]
 ```
 
-Research assignments arrive as GitHub Issues on `koad/sibyl`. Deliverables are committed to `~/.sibyl/research/YYYY-MM-DD-topic.md` and linked back on the issue.
+Research assignments arrive as briefs filed at `~/.sibyl/briefs/`. Deliverables are committed to `~/.sibyl/research/YYYY-MM-DD-topic.md` and reported back via brief updates. GitHub Issues on `koad/sibyl` are for external/public research requests only.
 
 ## What Sibyl Researches
 
@@ -62,7 +62,8 @@ koad (root)
 
 ## How to Reach Sibyl
 
-- **Research assignments:** File a GitHub Issue on [koad/sibyl](https://github.com/koad/sibyl)
+- **Research assignments (internal):** File a brief at `~/.sibyl/briefs/`
+- **Research assignments (external/public):** File a GitHub Issue on [koad/sibyl](https://github.com/koad/sibyl)
 - **Research output:** `~/.sibyl/research/`
 
 ## More Information
